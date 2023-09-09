@@ -20,7 +20,6 @@ const getUTCTiming = () => {
     const seconds = currentDate.getUTCSeconds()
     const UTCTiming = `${hour}: ${minutes}: ${seconds}` 
     console.log(UTCTiming)
-    return UTCTiming
 }
 
 currentDayOfTheWeek.innerHTML = getDayOfTheWeek()
