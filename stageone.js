@@ -19,7 +19,7 @@ const upDateTiming = () => {
         const hour = currentDate.getUTCHours()
         const minutes = currentDate.getUTCMinutes()
         const seconds = currentDate.getUTCSeconds()
-        const milliseconds = currentDate.getUTCMilliseconds();
+        const milliseconds = currentDate.getUTCMilliseconds()
         const UTCTiming = `${hour}: ${minutes}: ${seconds}: ${milliseconds}` 
         currentUTCTime.innerHTML = UTCTiming
     }
